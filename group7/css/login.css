@@ -1,0 +1,190 @@
+form { width: 1200px; }
+    label{
+    width: 10em;
+    float: left;
+    text-align: right;
+    margin-right: 0.5em;
+    display: block
+     }
+     body {
+      font-family: 'Nunito', sans-serif;
+      color: #6A5ACD;
+       padding: 10px;
+    }
+    table {
+  width: 100%;
+}
+    h1
+    {
+    font-family :Impact, Charcoal, sans-serif;
+    color: #000000
+    }
+    textarea,
+    select {
+      background: rgba(255,255,255,0.1);
+      border: none;
+      font-size: 15px;
+      height: auto;
+      margin: 0;
+      outline: 0;
+      padding: 1px;
+      width: 60%;
+      background-color: #e8eeef;
+      color: #8a97a0;
+      box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+      margin-bottom: 10px;
+    }
+    button {
+      padding: 5px 10px 5px 10px;
+      color: #FFF;
+      background-color: #000080;
+      font-size: 15px;
+      text-align: center;
+      font-style: bold;
+      border-radius: 5px;
+      width: %;
+      border: 1px solid #3ac162;
+      border-width: 1px 1px 0.5px;
+      box-shadow: 0 -1px 0 rgba(255,255,255,0.1) inset;
+      margin-bottom: 10px;
+    }
+    form {
+      max-width: 700px;
+      margin: 20px auto;
+      padding: 20px 20px;
+      background: #f4f7f8;
+      border-radius: 10px;
+      }
+      .buttons {
+        display: flex;
+        width: 100%;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+      }
+      button[type=reset], button[type=submit] {
+        flex-direction: row;
+        width: 200px;height: 50px;font-size: 30px;
+        margin: 20px 10px;
+      }
+
+      #header {
+      color:#000;
+      height: 100px;
+      width: 100%;
+    }
+    #header h1 {
+      margin-top: 0px;
+      font-family: 'Noto Serif', serif;
+    }
+
+    #grad1
+  {
+    height: 100%;
+    background: #004d99; /* For browsers that do not support gradients */
+    background: linear-gradient(90deg, #66b3ff, #004d99); /* Standard syntax (must be last) */
+
+  }
+  ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #333;
+    }
+
+    li {
+        float: left;
+        width: 100%;
+    }
+
+    li a {
+      width: 100%;
+        display: inline-block;
+        color: white;
+                padding: 14px 16px;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: #111;
+    }
+    .navbar {
+      width: 100%;
+    }
+    .navbar li {
+      width: 25%;
+    }
+    .navbar li:nth-child(1) {
+      background-color: #3973ac;
+    }
+    .navbar li:nth-child(2) {
+      background-color: #2e5cb8;
+    }
+    .navbar li:nth-child(3) {
+      background-color: #000066;
+    }
+    .navbar li:nth-child(4) {
+      background-color: #000033;
+    }
+    .leftcolumn {
+      padding: 10px;
+      float: left;
+          width: calc(25% - 40px);
+      }
+      .leftcolumn img {
+        width: 100%;
+      }
+      .rightcolumn {
+    float: left;
+    font-family: "Oswald",sans-serif;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 62px;
+    width: auto(75% - 5px);
+}
+      .dropbtn {
+        background: transparent;
+        text-align: left;
+        width: 100%;
+        color: white;
+        padding: 14px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+    }
+
+    .dropdown {
+      width: 100%;
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        width: 100%;
+        position: absolute;
+        background-color: #f9f9f9;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: black;
+        padding: 14px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+      width: calc(100% - 28px);
+        background-color: #f1f1f1;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    .dropdown:hover .dropbtn {
+      background-color: #000;
+      color: white;
+    }
+
